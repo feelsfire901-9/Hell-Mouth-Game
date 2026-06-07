@@ -1,0 +1,3 @@
+"""
+OMNI ASSAULT Game Package
+"""

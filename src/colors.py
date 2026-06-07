@@ -1,0 +1,47 @@
+"""
+Color Palette Manager
+"""
+
+from src.constants import (
+    COLOR_BLACK, COLOR_DARK_BG, COLOR_NEON_BLUE, COLOR_DARK_BLUE,
+    COLOR_GOLD, COLOR_GOLD_DARK, COLOR_WHITE, COLOR_GRAY,
+    COLOR_RED, COLOR_GREEN, COLOR_DARK_GREEN, COLOR_PURPLE, COLOR_ORANGE
+)
+
+
+class ColorPalette:
+    """
+    Central color palette for consistent UI styling.
+    """
+    # Backgrounds
+    BACKGROUND = COLOR_BLACK
+    BACKGROUND_DARK = COLOR_DARK_BG
+    
+    # Primary Colors
+    PRIMARY = COLOR_NEON_BLUE
+    PRIMARY_DARK = COLOR_DARK_BLUE
+    
+    # Accent Colors
+    ACCENT = COLOR_GOLD
+    ACCENT_DARK = COLOR_GOLD_DARK
+    
+    # Text Colors
+    TEXT_PRIMARY = COLOR_WHITE
+    TEXT_SECONDARY = COLOR_GRAY
+    
+    # Status Colors
+    STATUS_ENEMY = COLOR_RED
+    STATUS_PLAYER = COLOR_GREEN
+    STATUS_NEUTRAL = COLOR_GRAY
+    STATUS_UPGRADE = COLOR_GOLD
+    
+    # Team Colors
+    TEAM_PLAYER = COLOR_GREEN
+    TEAM_ENEMY = COLOR_RED
+    TEAM_NEUTRAL = COLOR_GRAY
+    TEAM_SUPPORT = COLOR_PURPLE
+    
+    # UI Elements
+    PANEL_BORDER = COLOR_NEON_BLUE
+    PANEL_BACKGROUND = COLOR_DARK_BLUE
+    BUTTON_HOVER = COLOR_ORANGE

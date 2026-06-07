@@ -1,0 +1,72 @@
+"""
+Game Constants and Configuration
+"""
+
+# Screen Configuration
+SCREEN_WIDTH = 1150
+SCREEN_HEIGHT = 800
+FPS = 60
+
+# Colors (RGB)
+COLOR_BLACK = (15, 15, 20)
+COLOR_DARK_BG = (20, 20, 30)
+COLOR_NEON_BLUE = (0, 200, 255)
+COLOR_DARK_BLUE = (0, 50, 100)
+COLOR_GOLD = (255, 215, 0)
+COLOR_GOLD_DARK = (200, 160, 0)
+COLOR_WHITE = (255, 255, 255)
+COLOR_GRAY = (100, 100, 100)
+COLOR_RED = (220, 50, 50)
+COLOR_GREEN = (50, 200, 100)
+COLOR_DARK_GREEN = (30, 120, 60)
+COLOR_PURPLE = (150, 50, 200)
+COLOR_ORANGE = (255, 140, 0)
+
+# Game States
+GAME_STATE_LOBBY = "lobby"
+GAME_STATE_MATCH = "match"
+GAME_STATE_MATCH_OVER = "match_over"
+
+# Game Modes
+GAME_MODE_TOWER_DOMINATION = "tower_domination"
+GAME_MODE_VILLAGE_FORGE = "village_forge"
+GAME_MODE_EPIC_CLASH = "epic_clash"
+
+# Unit Generation
+UNIT_GENERATION_RATE = 2  # seconds
+UNIT_GENERATION_AMOUNT = 1
+
+# Tower Properties
+TOWER_FIRE_RATE = 1.5  # seconds
+TOWER_DAMAGE = 10
+TOWER_RANGE = 300
+TOWER_SIZE = 40
+
+# Hero Properties
+HERO_SPEED = 5
+HERO_SIZE = 35
+HERO_INITIAL_CREDITS = 100
+
+# Upgrade System
+UPGRADE_COST = 40
+UPGRADE_MAX_LEVEL = 3
+UPGRADE_GENERATION_MULTIPLIER = 1.5
+
+# Projectile Properties
+PROJECTILE_SPEED = 7
+PROJECTILE_SIZE = 8
+PROJECTILE_DAMAGE = 5
+
+# Match Conditions
+MATCH_INITIAL_BASES = 5
+
+# UI Sizes
+UI_PANEL_WIDTH = 250
+UI_PANEL_HEIGHT = 200
+UI_BORDER_WIDTH = 2
+
+# Team Constants
+TEAM_PLAYER = "player"
+TEAM_ENEMY = "enemy"
+TEAM_NEUTRAL = "neutral"
+TEAM_SUPPORT = "support"
